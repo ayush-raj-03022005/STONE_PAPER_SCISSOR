@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock paper sxissor</title>
+      <link rel="stylesheet" href="./src/output.css">
+      <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="m-0 p-0 text-center ">
+    <div class="bg-blue-900 h-15 ">
+        <h2 class="h-10  text-center leading-10 font-bold text-amber-50"> Rock Paper Scissor</h2>
+    </div>
+   <div class="flex justify-center m-2  p-1 gap-4 h-[200px] choices">
+  <div class=" choice h-[150px] w-[150px] border-2 border-amber-400 rounded-full overflow-hidden hover:opacity-[50%] " id="rock">
+    <img src="./a44g_3gj6_201006.jpg" alt="" class="h-full w-full object-cover" >
+  </div>
+  <div class="choice h-[150px] w-[150px] border-2 border-amber-400 rounded-full overflow-hidden hover:opacity-[50%]" id="Scissor">
+    <img src="./download.jpg" alt="" class="h-full w-full object-cover" >
+  </div>
+  <div class=" choice h-[150px] w-[150px] border-2 border-amber-400 rounded-full overflow-hidden hover:opacity-[50%]" id="Paper">
+    <img src="./download.png" alt="" class="h-full w-full object-cover" >
+  </div>
+</div>
+
+    <div class="justify-center flex items-center font-[2rem] mt-[3rem gap-[5rem] font-bold">
+        <div>
+            <p id="user">0</p>
+            <p>You</p>
+        </div>
+        <div>
+            <p id="comp">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+    <p id="msg" class= " m-2.5 rounded-2xl  bg-amber-950 text-amber-50 font-[2rem] inline-block p-2">
+        
+            play your move
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
